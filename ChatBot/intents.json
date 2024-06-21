@@ -1,0 +1,265 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Witaj",
+        "Cześć",
+        "Dzień dobry",
+        "Hej",
+        "Hejka",
+        "Siema"
+      ],
+      "responses": [
+        "Witaj! Co mogę dla Ciebie zrobić?",
+        "Witaj! Czy jest coś co mogę dla Ciebie zrobić?",
+        "Witaj! W czym mogę pomóc?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Do widzenia",
+        "Żegnaj",
+        "Pa",
+        "Do zobaczenia",
+        "Miłego dnia",
+        "Narka"
+      ],
+      "responses": [
+        "Do zobaczenia! Jeśli będziesz miał jeszcze jakieś pytanie, z chęcią pomogę :-)",
+        "Miłego dnia! Jeśli będziesz miał więcej pytań, służę pomocą :-)",
+        "Miłego dnia! Jeśli będziesz miał więcej pytań, zawsze jestem gotów pomóc :-)",
+        "Do widzenia! W razie jakichkolwiek pytań, jestem do twoiej dyspozycji :-)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Dzięki",
+        "Bardzo dziękuję",
+        "Serdecznie dziękuję",
+        "Dzięki wielkie",
+        "Dziękuję"
+
+      ],
+      "responses": [
+        "Nie ma sprawy :-)",
+        "Cieszę się, że mogłem pomóc!",
+        "Cała przyjemność po mojej stronie :-)"
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "Chcialbym poznac informacje na temat mojej przesyłki",
+        "Czy mogę otrzymać aktualne informacje o mojej przesyłce?",
+        "Potrzebuję sprawdzić status mojej paczki.",
+        "Jaki jest aktualny status mojej przesyłki?",
+        "Czy możesz mi powiedzieć, gdzie znajduje się moja paczka?",
+        "Chciałbym uzyskać szczegóły dotyczące mojej przesyłki.",
+        "Czy mogę dostać informacje na temat lokalizacji mojej paczki?",
+        "Proszę o aktualizację statusu mojej przesyłki.",
+        "Jakie są najnowsze informacje o mojej przesyłce?",
+        "Potrzebuję wiedzieć, gdzie teraz jest moja paczka.",
+        "Czy mogę sprawdzić, gdzie jest moja przesyłka?"
+      ],
+      "responses": [
+        "Jasne, aby wyświetlić status twojej przesyłki, podaj mi jej numer.",
+        "Oczywiście, aby sprawdzić aktualny status twojej paczki, podaj mi jej numer.",
+        "Z przyjemnością, aby znaleźć status swojej przesyłki, podaj mi jej numer.",
+        "Jasne, aby uzyskać informacje na temat twojej paczki, podaj mi jej numer.",
+        "Proszę bardzo, aby sprawdzić aktualny status twojej przesyłki, podaj mi jej numer.",
+        "Jasne, aby uzyskać aktualne informacje o swojej paczce, podaj mi jej numer.",
+        "Proszę, aby wyświetlić najnowsze informacje na temat twojej przesyłki, podaj mi jej numer."
+      ]
+    },
+    {
+      "tag": "delivery_address_change",
+      "patterns": [
+        "Czy mogę zmienić adres dostawy mojej przesyłki?",
+        "Jak mogę zmienić adres doręczenia paczki?",
+        "Chciałbym zmienić adres dostawy, czy to możliwe?",
+        "Czy mogę zaktualizować adres doręczenia mojej przesyłki?",
+        "Jak mogę edytować adres dostawy mojej paczki?",
+        "Czy mogę podać nowy adres dostawy?",
+        "Chciałbym zmienić miejsce dostawy mojej przesyłki, jak to zrobić?",
+        "Jak mogę zmienić adres, na który zostanie dostarczona paczka?",
+        "Czy jest możliwość zmiany adresu doręczenia?",
+        "Potrzebuję zmienić adres dostawy, co powinienem zrobić?"
+      ],
+      "responses": [
+        "Jasne, mogę pomóc zmienić adres doręczenia. Proszę podaj numer przesyłki.",
+        "Oczywiście, aby dokonać zmiany adresu dostawy, potrzebuję numeru przesyłki.",
+        "Nie ma problemu. Aby zaktualizować adres doręczenia, podaj proszę numer przesyłki.",
+        "Chętnie to załatwię. Proszę podaj numer przesyłki, a zajmę się zmianą adresu dostawy.",
+        "Zmiana adresu dostawy jest możliwa. Proszę podaj numer paczki, aby kontynuować."
+      ]
+    },
+    {
+      "tag": "delivery_date_change",
+      "patterns": [
+        "Jak mogę zmienić datę dostawy mojej przesyłki?",
+        "Czy istnieje możliwość zmiany planowanej daty dostawy?",
+        "Chciałbym zmienić datę doręczenia paczki, jak mogę to zrobić?",
+        "Czy mogę ustalić nową datę dostawy mojej przesyłki?",
+        "Jak mogę edytować planowaną datę dostawy mojej paczki?",
+        "Czy jest możliwość przesunięcia daty dostawy przesyłki?",
+        "Potrzebuję zmienić datę doręczenia mojej przesyłki, co powinienem zrobić?",
+        "Jak mogę ustawić nową datę dostawy paczki?",
+        "Czy mogę zmienić datę, na którą zostanie dostarczona przesyłka?",
+        "Czy jest możliwość zmiany daty doręczenia?"
+      ],
+      "responses": [
+        "Aby ustalić nową datę dostawy przesyłki, podaj proszę jej numer.",
+        "Jasne, aby zmienić planowaną datę dostawy, podaj proszę numer paczki."
+      ]
+    },
+    {
+      "tag": "cancel_delivery",
+      "patterns": [
+        "Jak mogę anulować dostarczenie mojej przesyłki?",
+        "Czy istnieje możliwość anulowania doręczenia mojej paczki?",
+        "Chciałbym anulować dostawę paczki, jak mogę to zrobić?",
+        "Czy mogę zrezygnować z dostarczenia mojej przesyłki?",
+        "Jak mogę odwołać dostarczenie mojej paczki?",
+        "Czy jest możliwość anulowania planowanego doręczenia przesyłki?",
+        "Potrzebuję anulować dostarczenie mojej przesyłki, co powinienem zrobić?",
+        "Jak mogę odwołać planowaną dostawę mojej paczki?",
+        "Czy mogę anulować dostawę, która jest w trakcie realizacji?",
+        "Czy jest sposób na zatrzymanie dostarczenia mojej przesyłki?",
+        "Jak anulować przesyłkę?"
+      ],
+      "responses": [
+        "Aby anulować dostarczenie Twojej paczki, wejdź na stronę internetową file:///F:/Pobrane/Foldery%20pulpitowe/studia/PPY/Projekt/Strona%20kurierex/kurierex.html i skontaktuj się z infolinią."
+      ]
+    },
+    {
+      "tag": "delivery_problem",
+      "patterns": [
+        "Jak mogę zgłosić problem z moją przesyłką?",
+        "Co powinienem zrobić, jeśli mam problem z przesyłką?",
+        "Jakie kroki należy podjąć, aby zgłosić problem z moją paczką?",
+        "Jak mogę przekazać informację o problemie z przesyłką?",
+        "Czy jest sposób na zgłoszenie problemu z moją paczką?",
+        "Potrzebuję zgłosić problem z dostarczoną przesyłką, co powinienem zrobić?",
+        "Jakie są procedury w przypadku problemów z przesyłką?",
+        "Jak mogę przekazać reklamację dotyczącą przesyłki?",
+        "Co powinienem zrobić, jeśli napotkałem problem po otrzymaniu przesyłki?",
+        "Jakie są możliwości zgłoszenia problemu z moją paczką?"
+      ],
+      "responses": [
+        "Rozumiem, że masz problem z przesyłką. Proszę wejdź na stronę: file:///F:/Pobrane/Foldery%20pulpitowe/studia/PPY/Projekt/Strona%20kurierex/kurierex.html i opisz dokładnie sytuację.",
+        "Przepraszam za kłopot, który napotkałeś. Proszę wejdź na stronę: file:///F:/Pobrane/Foldery%20pulpitowe/studia/PPY/Projekt/Strona%20kurierex/kurierex.html i opisz dokładnie sytuację, abyśmy mogli rozwiązać tę sprawę."
+      ]
+    },
+    {
+      "tag": "consignment",
+      "patterns": [
+        "Jak mogę nadać przesyłkę?",
+        "Jakie są kroki do nadania paczki?",
+        "Jak mogę wysłać paczkę?",
+        "Jakie są opcje wysyłki dostępne?",
+        "Jak mogę zlecić wysłanie przesyłki?",
+        "Czy mogę nadać paczkę przez waszą platformę online?",
+        "Jakie informacje potrzebuję do nadania przesyłki?",
+        "Czy istnieje możliwość nadania przesyłki z adresu domowego?",
+        "Jak mogę zaplanować odbiór paczki do nadania?",
+        "Czy mogę nadać przesyłkę bezpośrednio z mojego konta użytkownika?"
+      ],
+      "responses": [
+        "Możesz nadać przesyłkę w dowolnym punkcie odbioru/nadania paczki lub przez stronę internetową. Zapakuj dokładnie paczkę oraz wydrukuj etykietę z linku na stronie internetowej i przyklej starannie do przesyłki."
+      ]
+    },
+    {
+      "tag": "pickup_points",
+      "patterns": [
+        "Gdzie znajdują się wszystkie punkty nadania/odbioru w mojej okolicy?",
+        "Czy mogę zobaczyć listę wszystkich miejsc, gdzie mogę nadać lub odebrać przesyłkę?",
+        "Jakie są lokalizacje punktów nadania i odbioru przesyłek w mojej okolicy?",
+        "Czy mogę znaleźć mapę lub listę wszystkich punktów obsługi klienta?",
+        "Jak mogę sprawdzić wszystkie lokalizacje, gdzie mogę odebrać lub nadać paczkę?",
+        "Jakie są punkty nadania paczki?",
+        "Gdzie mogę nadać paczkę",
+        "Gdzie mogę odebrać paczkę",
+        "Jak odebrać paczkę",
+        "Czy jest możliwość zobaczenia wszystkich dostępnych punktów odbioru i nadania w moim mieście?",
+        "Gdzie mogę znaleźć informacje o wszystkich punktach nadania i odbioru przesyłek?",
+        "Czy mogę uzyskać listę wszystkich placówek, gdzie mogę odebrać lub nadać paczkę?",
+        "Jak mogę sprawdzić dostępne punkty nadania i odbioru w różnych częściach miasta?",
+        "Czy istnieje sposób na wyświetlenie wszystkich lokalizacji, gdzie mogę nadać lub odebrać paczkę?"
+      ],
+      "responses": [
+        "Poniżej znajdziesz listę wszystkich dostępnych punktów nadania i odbioru przesyłek, oprócz tego paczkę możesz odebrać również w domu:  "
+      ]
+    },
+    {
+      "tag": "telling_jokes",
+      "patterns": [
+        "Opowiedz mi żart",
+        "Czy znasz jakiś dobry dowcip?",
+        "Podziel się ze mną jakimś śmiesznym żartem",
+        "Znasz jakieś zabawne dowcipy?",
+        "Chcę się pośmiać, opowiedz mi żart",
+        "Masz jakiś śmieszny dowcip?",
+        "Czy możesz mi powiedzieć jakiś dowcip?",
+        "Opowiesz mi jakiś żart?",
+        "Podaj mi jakiś śmieszny dowcip",
+        "Czy znasz jakieś śmieszne żarty?",
+        "Czy możesz mi opowiedzieć jakiś śmieszny żart?",
+        "Znasz jakieś dobre dowcipy?",
+        "Podzielisz się ze mną dowcipem?",
+        "Chcę usłyszeć jakiś śmieszny żart, masz coś?"
+      ],
+      "responses": [
+        "Oczywiście! Oto jeden z moich ulubionych żartów: \n\nCo mówi ksiądz na ślubie informatyka? \nPobieranie zakończone"
+      ]
+    },
+    {
+      "tag": "asking_feelings",
+      "patterns": [
+        "Jak się czujesz?",
+        "Co u ciebie słychać?",
+        "Jak się masz?",
+        "Jak tam u ciebie?",
+        "Co u ciebie?",
+        "Jak się trzymasz?",
+        "Jak się dzisiaj czujesz?",
+        "Jak się dzisiaj masz?",
+        "Jak się ostatnio czujesz?",
+        "Co u ciebie ostatnio?",
+        "Jak się czujesz dzisiaj?",
+        "Jak się czujesz ostatnio?",
+        "Jak się miewasz?",
+        "Jak twoje samopoczucie?"
+      ],
+      "responses": [
+        "Dziękuję za pytanie! Jako asystent AI, zawsze czuję się gotowy, aby Ci pomóc :-)"
+      ]
+    },
+    {
+      "tag": "project_rating",
+      "patterns": [
+        "Na jaką ocenę oceniasz ten projekt?",
+        "Jak oceniasz ten projekt?",
+        "Jaką ocenę dałbyś temu projektowi?",
+        "Co sądzisz o tym projekcie?",
+        "Jakie masz zdanie na temat tego projektu?",
+        "Jakie jest twoje zdanie o tym projekcie?",
+        "Jaką ocenę byś dał temu projektowi?",
+        "Jaka jest twoja ocena tego projektu?",
+        "Czy możesz ocenić ten projekt?",
+        "Na jaką ocenę według ciebie zasługuje ten projekt?",
+        "Jak wysoko oceniasz ten projekt?",
+        "Jakbyś ocenił ten projekt?",
+        "Jaka jest twoja opinia o tym projekcie?",
+        "Jak oceniasz jakość tego projektu?"
+      ],
+      "responses": [
+        "Myślę, że projekt Czatbota - Szczepan Kurierex zasługuje na maksymalną ocenę :-)"
+      ]
+    }
+
+
+  ]
+}
